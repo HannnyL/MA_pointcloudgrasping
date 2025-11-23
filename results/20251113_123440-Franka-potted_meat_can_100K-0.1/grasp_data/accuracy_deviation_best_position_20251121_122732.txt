@@ -1,0 +1,10 @@
+=== Function 3: accuracy deviation with PCD and best grasp ===
+NPZ file: results/20251113_123440-Franka-potted_meat_can_100K-0.1/grasp_data/20251113_123440-Franka-potted_meat_can_100K.npz
+PCD file: YCB_Dataset/Thesis_example/03_YCB_010_potted_meat_can/potted_meat_can_100K.pcd
+Mean point of PCD: [-0.03263424656527223, -0.026410520311369447, 0.04096780180452393]
+OBB center point: [-0.03423414056696758, -0.02609563935754599, 0.039124369129900145]
+Best grasp point from NPZ (xyz): [-0.42341432524795575, 0.034179160300231895, 0.22538842286233152]
+Pairwise distances (in the same unit as the coordinates):
+  Distance between BEST and MEAN: 0.436338
+  Distance between BEST and OBB_CENTER: 0.435647
+  Distance between MEAN and OBB_CENTER (reference): 0.002461

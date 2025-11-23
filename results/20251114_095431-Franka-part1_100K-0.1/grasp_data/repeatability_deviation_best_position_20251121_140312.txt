@@ -1,0 +1,8 @@
+=== Function 2: mean distance of best grasp of each file ===
+Input files:
+  - results/20251114_095236-Franka-part1_100K-0.1/grasp_data/20251114_095236-Franka-part1_100K-0.1.npz
+  - results/20251114_095431-Franka-part1_100K-0.1/grasp_data/20251114_095431-Franka-part1_100K-0.1.npz
+  - results/20251114_095550-Franka-part1_100K-0.1/grasp_data/20251114_095550-Franka-part1_100K-0.1.npz
+  - results/20251114_095903-Franka-part1_100K-0.1/grasp_data/20251114_095903-Franka-part1_100K-0.1.npz
+Number of files with valid best grasps: 4
+Mean pairwise Euclidean distance of xyz among best points: [[0.077185]]

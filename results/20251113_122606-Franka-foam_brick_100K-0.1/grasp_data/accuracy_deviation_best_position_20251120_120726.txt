@@ -1,0 +1,10 @@
+=== Function 3: accuracy deviation with PCD and best grasp ===
+NPZ file: results/20251113_122606-Franka-foam_brick_100K-0.1/grasp_data/20251113_122606-Franka-foam_brick_100K.npz
+PCD file: YCB_Dataset/Thesis_example/02_GN_59_soap/soap_100K.pcd
+Mean point of PCD: [0.00023914675776890248, 0.00011601474416642247, -0.0001311726249136859]
+OBB center point: [0.00033057930319838047, 0.00018779796282536627, -0.00014205629957828416]
+Best grasp point from NPZ (xyz): [0.13762266862349906, 0.8980185007387407, 1.1636840873138445]
+Pairwise distances (in the same unit as the coordinates):
+  Distance between BEST and MEAN: 1.476336
+  Distance between BEST and OBB_CENTER: 1.476293
+  Distance between MEAN and OBB_CENTER (reference): 0.000117

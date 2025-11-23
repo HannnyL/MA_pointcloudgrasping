@@ -1,0 +1,10 @@
+=== Function 3: accuracy deviation with PCD and best grasp ===
+NPZ file: results/20251113_123642-Franka-jbl-go3_100K-0.1/grasp_data/20251113_123642-Franka-jbl-go3_100K.npz
+PCD file: YCB_Dataset/Thesis_example/04_WEB_jbl_go3/jbl-go3_100K.pcd
+Mean point of PCD: [40.337546951249045, -20.41460930910815, 35.50524596486143]
+OBB center point: [27.232723432248463, -19.57583752863871, 37.525896867522164]
+Best grasp point from NPZ (xyz): [41.05935103135309, -19.484637427657013, 37.024763246071196]
+Pairwise distances (in the same unit as the coordinates):
+  Distance between BEST and MEAN: 1.922181
+  Distance between BEST and OBB_CENTER: 13.836007
+  Distance between MEAN and OBB_CENTER (reference): 13.286195

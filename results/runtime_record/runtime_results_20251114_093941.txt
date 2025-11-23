@@ -1,0 +1,23 @@
+Total runtime: 48.780207 seconds
+
+Custom functions by cumulative time (Top 20):
+01. <module>  Cumulative time: 48.758730 s  Calls: 1  Location: main_script_parallel_grasp.py:1
+02. get_plane_contour_polygon  Cumulative time: 15.516108 s  Calls: 90  Location: main_script_parallel_grasp.py:2000
+03. find_feasible_tcp  Cumulative time: 9.541011 s  Calls: 18  Location: main_script_parallel_grasp.py:2272
+04. extract_and_visualize_contour_segments_with_normals  Cumulative time: 6.221498 s  Calls: 18  Location: main_script_parallel_grasp.py:1376
+05. extract_overlap_region  Cumulative time: 3.045979 s  Calls: 49  Location: main_script_parallel_grasp.py:1041
+06. create_gripper_bounding_box  Cumulative time: 2.066962 s  Calls: 18  Location: main_script_parallel_grasp.py:1837
+07. <genexpr>  Cumulative time: 1.902370 s  Calls: 64022  Location: main_script_parallel_grasp.py:2310
+08. <genexpr>  Cumulative time: 0.608378 s  Calls: 37128  Location: main_script_parallel_grasp.py:2318
+09. <genexpr>  Cumulative time: 0.535138 s  Calls: 37128  Location: main_script_parallel_grasp.py:2314
+10. <genexpr>  Cumulative time: 0.478372 s  Calls: 39258  Location: main_script_parallel_grasp.py:2323
+11. merge_coplanar_planes  Cumulative time: 0.341118 s  Calls: 1  Location: main_script_parallel_grasp.py:678
+12. select_points_between_planes  Cumulative time: 0.308555 s  Calls: 126  Location: main_script_parallel_grasp.py:1126
+13. filter_by_normal_orientation  Cumulative time: 0.263923 s  Calls: 18  Location: main_script_parallel_grasp.py:210
+14. auto_img_scale  Cumulative time: 0.241633 s  Calls: 76  Location: main_script_parallel_grasp.py:1364
+15. <genexpr>  Cumulative time: 0.205491 s  Calls: 37128  Location: main_script_parallel_grasp.py:2328
+16. _angle_deg  Cumulative time: 0.150978 s  Calls: 16387  Location: main_script_parallel_grasp.py:653
+17. project_points_to_plane  Cumulative time: 0.119056 s  Calls: 72  Location: main_script_parallel_grasp.py:1121
+18. pcd_scaler  Cumulative time: 0.111624 s  Calls: 1  Location: main_script_parallel_grasp.py:443
+19. remove_pcd_outlier_statistical  Cumulative time: 0.098895 s  Calls: 18  Location: main_script_parallel_grasp.py:260
+20. _refit_plane_from_points  Cumulative time: 0.098611 s  Calls: 59  Location: main_script_parallel_grasp.py:658

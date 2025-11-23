@@ -1,0 +1,10 @@
+=== Function 2: mean distance of best grasp of each file ===
+Input files:
+  - results/20251114_085352-Franka-foam_brick_1M-0.1/grasp_data/20251114_085352-Franka-foam_brick_1M-0.1.npz
+  - results/20251114_083829-Franka-foam_brick_1K-0.1/grasp_data/20251114_083829-Franka-foam_brick_1K-0.1.npz
+  - results/20251114_084935-Franka-foam_brick_5K-0.1/grasp_data/20251114_084935-Franka-foam_brick_5K-0.1.npz
+  - results/20251114_085221-Franka-foam_brick_10K-0.1/grasp_data/20251114_085221-Franka-foam_brick_10K-0.1.npz
+  - results/20251113_122606-Franka-foam_brick_100K-0.1/grasp_data/20251113_122606-Franka-foam_brick_100K.npz
+Number of files with valid best grasps: 5
+Mean pairwise Euclidean distance of xyz among best points: [[7.853717]]
+Result has been saved to: results/20251114_084935-Franka-foam_brick_5K-0.1/grasp_data\repeatability_deviation_best_position_20251121_144353.txt

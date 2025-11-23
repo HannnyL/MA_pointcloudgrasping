@@ -1,0 +1,23 @@
+Total runtime: 77.363539 seconds
+
+Custom functions by cumulative time (Top 20):
+01. <module>  Cumulative time: 77.340967 s  Calls: 1  Location: main_script_parallel_grasp.py:1
+02. get_plane_contour_polygon  Cumulative time: 21.421342 s  Calls: 120  Location: main_script_parallel_grasp.py:2000
+03. find_feasible_tcp  Cumulative time: 13.252636 s  Calls: 24  Location: main_script_parallel_grasp.py:2272
+04. extract_and_visualize_contour_segments_with_normals  Cumulative time: 9.844650 s  Calls: 24  Location: main_script_parallel_grasp.py:1376
+05. merge_coplanar_planes  Cumulative time: 5.135186 s  Calls: 1  Location: main_script_parallel_grasp.py:678
+06. extract_overlap_region  Cumulative time: 4.610668 s  Calls: 94  Location: main_script_parallel_grasp.py:1041
+07. _angle_deg  Cumulative time: 3.457310 s  Calls: 190028  Location: main_script_parallel_grasp.py:653
+08. create_gripper_bounding_box  Cumulative time: 2.865172 s  Calls: 24  Location: main_script_parallel_grasp.py:1837
+09. <genexpr>  Cumulative time: 2.833866 s  Calls: 89600  Location: main_script_parallel_grasp.py:2310
+10. <genexpr>  Cumulative time: 1.077914 s  Calls: 45954  Location: main_script_parallel_grasp.py:2318
+11. <genexpr>  Cumulative time: 0.926998 s  Calls: 44968  Location: main_script_parallel_grasp.py:2314
+12. <genexpr>  Cumulative time: 0.598582 s  Calls: 45794  Location: main_script_parallel_grasp.py:2323
+13. select_points_between_planes  Cumulative time: 0.552995 s  Calls: 168  Location: main_script_parallel_grasp.py:1126
+14. _refit_plane_from_points  Cumulative time: 0.436754 s  Calls: 90  Location: main_script_parallel_grasp.py:658
+15. auto_img_scale  Cumulative time: 0.404056 s  Calls: 101  Location: main_script_parallel_grasp.py:1364
+16. filter_by_normal_orientation  Cumulative time: 0.303099 s  Calls: 24  Location: main_script_parallel_grasp.py:210
+17. <genexpr>  Cumulative time: 0.270835 s  Calls: 44968  Location: main_script_parallel_grasp.py:2328
+18. compute_grasp_pose  Cumulative time: 0.262679 s  Calls: 24  Location: main_script_parallel_grasp.py:1550
+19. project_points_to_plane  Cumulative time: 0.204029 s  Calls: 96  Location: main_script_parallel_grasp.py:1121
+20. rank_feasible_tcp  Cumulative time: 0.128646 s  Calls: 24  Location: main_script_parallel_grasp.py:2508

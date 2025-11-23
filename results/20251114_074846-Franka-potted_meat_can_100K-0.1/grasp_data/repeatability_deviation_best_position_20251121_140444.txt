@@ -1,0 +1,10 @@
+=== Function 2: mean distance of best grasp of each file ===
+Input files:
+  - results/20251114_074706-Franka-potted_meat_can_100K-0.1/grasp_data/20251114_074706-Franka-potted_meat_can_100K-0.1.npz
+  - results/20251114_074751-Franka-potted_meat_can_100K-0.1/grasp_data/20251114_074751-Franka-potted_meat_can_100K-0.1.npz
+  - results/20251114_074846-Franka-potted_meat_can_100K-0.1/grasp_data/20251114_074846-Franka-potted_meat_can_100K-0.1.npz
+  - results/20251114_075037-Franka-potted_meat_can_100K-0.1/grasp_data/20251114_075037-Franka-potted_meat_can_100K-0.1.npz
+  - results/20251114_075125-Franka-potted_meat_can_100K-0.1/grasp_data/20251114_075125-Franka-potted_meat_can_100K-0.1.npz
+Number of files with valid best grasps: 5
+Mean pairwise Euclidean distance of xyz among best points: [[0.370860]]
+Result has been saved to: results/20251114_074706-Franka-potted_meat_can_100K-0.1/grasp_data\repeatability_deviation_best_position_20251121_140444.txt
