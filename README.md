@@ -24,10 +24,10 @@ master's thesis on point cloud-based grasping.
 ## Overview
 
 This project performs grasp planning based on 3D point clouds. The repository includes:  
-    - Code for grasp generation and evaluation 
-    - Predefined gripper configurations 
-    - Point cloud models of various objects 
-    - Evaluation results
+- Code for grasp generation and evaluation 
+- Predefined gripper configurations 
+- Point cloud models of various objects 
+- Evaluation results
 
 ## Environment & Installation
 
