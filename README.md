@@ -23,11 +23,11 @@ master's thesis on point cloud-based grasping.
 
 ## Overview
 
-This project performs grasp planning based on 3D point clouds. The
-repository includes: - Code for grasp generation and evaluation -
-Predefined gripper configurations - Point cloud models of various
-objects - Scripts for visualization, runtime measurement, and result
-analysis
+This project performs grasp planning based on 3D point clouds. The repository includes:  
+    - Code for grasp generation and evaluation 
+    - Predefined gripper configurations 
+    - Point cloud models of various objects 
+    - Evaluation results
 
 ## Environment & Installation
 
@@ -114,7 +114,7 @@ Automatically used by other scripts.
 
 - ```measure_runtime.py```
   - This script is used to record the runtime of the main script. It logs both the total runtime and the 20 functions with the longest execution time. The results will be stored in  ```result/runtime_record/```.
-  - Simply run this script and it will automatically execute the main script. Remember to set the correct ```.pcd``` and ```.yaml``` file paths in the main script in advance.
+  - Simply run this script, and it will automatically execute the main script. Remember to set the correct ```.pcd``` and ```.yaml``` file paths in the main script in advance.
 
 - ```visualize_grasp_results.py```
   - This script visualizes grasp point results. Before execution, set the necessary paths and parameters at the top of the script under “Set all necessary paths and TARGET before execution.”
